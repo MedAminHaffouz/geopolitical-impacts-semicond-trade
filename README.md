@@ -20,10 +20,10 @@ data/
     cache/          split_cache/ etc. -- regenerate anytime, safe to delete
 
 notebooks/
+    00_init/             Initial setup
     01_data_extraction/   GDELT extraction, feature engineering
     02_benchmarking/      Initial model grid experiments
     03_analysis/          Cross-experiment comparison notebooks
-    04_writeup/            Final exported results / writeup notebooks
 
 src/
     training/       Main training drivers (train_benchmark.py, run_shrinkage_head.py, ...)
@@ -39,7 +39,7 @@ results/
 
 models/         Trained model weights (not tracked in git -- see Models section)
 figures/        Generated plots and dashboards
-docs/           Reference PDFs, writeups
+docs/           Reference files
 scripts/        Environment setup
 ```
 
@@ -73,4 +73,3 @@ organized locally under `models/`:
 
 - UN Comtrade (trade flows)
 - GDELT 2.0 (geopolitical events)
-- CEPII gravity database (distance, GDP, population)
