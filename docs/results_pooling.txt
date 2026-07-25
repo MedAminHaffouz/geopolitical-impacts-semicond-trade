@@ -1,0 +1,25 @@
+
+=== Pooled (all_products, no per-heading head) vs. per-heading experiment ===
+                   model  pooled_log_r2  perhead_log_r2  delta_log_r2  pooled_spearman  perhead_spearman  delta_spearman  pooled_n  perhead_n
+            GAT no-GDELT          0.111           0.325         0.213            0.464             0.612           0.148    123777     123777
+         GAT concat/topk          0.064           0.320         0.255            0.421             0.593           0.172    123777     123777
+ EdgeGAT_full attn/ka_ka         -0.007           0.341         0.349            0.002             0.605           0.603    123777     123777
+EdgeGAT_full blend/tk_tk          0.169           0.337         0.168            0.454             0.593           0.139    123777     123777
+
+
+=== Overall log-R^2 ===
+                                 model   log_r2  spearman      n
+              GAT_first_none_shrinkage 0.302449  0.596747 123777
+           GAT_first_keepall_shrinkage 0.342858  0.594575 123777
+              GAT_first_topk_shrinkage 0.306266  0.575957 123777
+EdgeGAT_full_attention_ka_ka_shrinkage 0.272466  0.601901 123777
+    EdgeGAT_full_blend_tk_tk_shrinkage 0.337731  0.587633 123777
+
+=== HS 8541+8542 combined slice ===
+                                 model   log_r2  spearman   n
+              GAT_first_none_shrinkage 0.384663  0.701892 378
+           GAT_first_keepall_shrinkage 0.511780  0.711855 378
+              GAT_first_topk_shrinkage 0.394639  0.693689 378
+EdgeGAT_full_attention_ka_ka_shrinkage 0.241803  0.645200 378
+    EdgeGAT_full_blend_tk_tk_shrinkage 0.458881  0.668619 378
+
