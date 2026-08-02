@@ -1,41 +1,31 @@
+
 # ============================================================
-# Data -- too large / regenerable, never commit to git
-# ============================================================
-data/raw/
+*.csv.gz
+data/cache/
+data/external/
 data/interim/
 data/processed/
-data/external/
-data/cache/
+data/raw/
+# Data -- too large / regenerable, never commit to git
+.DS_Store
+*.egg-info/
+env/
+.idea/
+.ipynb_checkpoints/
+models/
+# OS / editor cruft
 *.parquet
-*.csv.gz
-
+*.pkl
+*.pt
+*.pth
+*.pyc
+__pycache__/
+*.pyo
+# Python
 # results/*.csv and feature_importance/*.csv are NOT ignored --
 # they're small and are the actual evidence behind the findings,
-# worth tracking in git history.
-
-# ============================================================
 # Trained models -- large binaries, don't belong in git history
-# ============================================================
-models/
-*.pth
-*.pt
-*.pkl
-
-# ============================================================
-# Python
-# ============================================================
-__pycache__/
-*.pyc
-*.pyo
-.ipynb_checkpoints/
-venv_train/
 venv/
-env/
-*.egg-info/
-
-# ============================================================
-# OS / editor cruft
-# ============================================================
-.DS_Store
+venv_train/
 .vscode/
-.idea/
+# worth tracking in git history.

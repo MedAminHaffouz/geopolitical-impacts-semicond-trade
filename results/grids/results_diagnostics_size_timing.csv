@@ -1,0 +1,5 @@
+model,n_trees,total_nodes,trainable_params,train_s,infer_s
+RF_gravity_baseline,200.0,2916056.0,,4.540557421998528,0.04246874299860792
+GAT_first_none,,,1804.0,5.5981313020020025,0.03575649699632777
+GAT_first_keepall_concat,,,2700.0,5.501037974005158,0.04855804699764121
+EdgeGAT_full_attention_ka_ka_shrinkage,,,195236.0,38.10580994900374,0.05923803699988639

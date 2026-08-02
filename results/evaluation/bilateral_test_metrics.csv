@@ -1,0 +1,89 @@
+timestamp,model,kind,use_gdelt,scoring,fusion,agg_mode,country_pair,n,mae,rmse,r2,log_r2,spearman,smape,notes
+2026-07-28T16:05:03,GAT_first_none,GAT,False,none,concat,first,US_to_China,19,337479569.84,740276233.58,-0.1512,-0.0031,0.293,116.15,
+2026-07-28T16:05:03,GAT_first_none,GAT,False,none,concat,first,China_to_Taiwan,19,1205332590.39,2806867557.0,-0.2245,-0.682,-0.1509,158.98,
+2026-07-28T16:05:03,GAT_first_keepall_concat,GAT,True,keepall,concat,first,US_to_China,19,352118524.16,772539515.54,-0.2538,-0.6071,-0.4228,136.28,
+2026-07-28T16:05:03,GAT_first_keepall_concat,GAT,True,keepall,concat,first,China_to_Taiwan,19,1197444815.89,2799537323.9,-0.2181,-0.2112,-0.1509,145.19,
+2026-07-28T16:05:03,GAT_first_keepall_blend,GAT,True,keepall,blend,first,US_to_China,19,359366764.75,777930241.28,-0.2713,-2.5258,-0.4228,154.77,
+2026-07-28T16:05:03,GAT_first_keepall_blend,GAT,True,keepall,blend,first,China_to_Taiwan,19,1227767109.16,2690970450.3,-0.1255,-0.0538,0.3333,146.1,
+2026-07-28T16:05:03,GAT_first_keepall_attention,GAT,True,keepall,attention,first,US_to_China,19,332117306.37,739809224.0,-0.1498,0.1013,0.4228,114.48,
+2026-07-28T16:05:03,GAT_first_keepall_attention,GAT,True,keepall,attention,first,China_to_Taiwan,19,1205010263.0,2807137300.75,-0.2248,-0.7073,-0.3696,154.5,
+2026-07-28T16:05:03,GAT_first_topk_concat,GAT,True,topk,concat,first,US_to_China,19,355021712.89,774285088.47,-0.2594,-0.915,-0.393,146.26,
+2026-07-28T16:05:03,GAT_first_topk_concat,GAT,True,topk,concat,first,China_to_Taiwan,19,1200300314.84,2800551814.1,-0.219,-0.2762,-0.3333,151.58,
+2026-07-28T16:05:03,GAT_first_topk_blend,GAT,True,topk,blend,first,US_to_China,19,351732779.11,749818873.87,-0.1811,-0.2036,-0.4228,117.8,
+2026-07-28T16:05:03,GAT_first_topk_blend,GAT,True,topk,blend,first,China_to_Taiwan,19,1232880326.74,2725131503.19,-0.1542,-0.3729,-0.3333,119.35,
+2026-07-28T16:05:03,GAT_first_topk_attention,GAT,True,topk,attention,first,US_to_China,19,358644775.57,777493413.52,-0.2699,-2.1175,-0.4228,150.62,
+2026-07-28T16:05:03,GAT_first_topk_attention,GAT,True,topk,attention,first,China_to_Taiwan,19,1207112627.58,2808545540.47,-0.226,-1.0173,-0.3333,160.64,
+2026-07-28T16:05:03,EdgeGAT_full_concat_ka_ka,EdgeGAT_full,,ka_ka,concat,first,US_to_China,0,,,,,,,"error: Found array with 0 sample(s) (shape=(0, 5)) while a minimum of 1 is required by MinMaxScaler."
+2026-07-28T16:05:03,EdgeGAT_full_concat_ka_ka,EdgeGAT_full,,ka_ka,concat,first,China_to_Taiwan,0,,,,,,,"error: Found array with 0 sample(s) (shape=(0, 5)) while a minimum of 1 is required by MinMaxScaler."
+2026-07-28T16:05:03,EdgeGAT_full_blend_ka_ka,EdgeGAT_full,,ka_ka,blend,first,US_to_China,0,,,,,,,"error: Found array with 0 sample(s) (shape=(0, 5)) while a minimum of 1 is required by MinMaxScaler."
+2026-07-28T16:05:03,EdgeGAT_full_blend_ka_ka,EdgeGAT_full,,ka_ka,blend,first,China_to_Taiwan,0,,,,,,,"error: Found array with 0 sample(s) (shape=(0, 5)) while a minimum of 1 is required by MinMaxScaler."
+2026-07-28T16:05:04,EdgeGAT_full_attention_ka_ka,EdgeGAT_full,,ka_ka,attention,first,US_to_China,0,,,,,,,"error: Found array with 0 sample(s) (shape=(0, 5)) while a minimum of 1 is required by MinMaxScaler."
+2026-07-28T16:05:04,EdgeGAT_full_attention_ka_ka,EdgeGAT_full,,ka_ka,attention,first,China_to_Taiwan,0,,,,,,,"error: Found array with 0 sample(s) (shape=(0, 5)) while a minimum of 1 is required by MinMaxScaler."
+2026-07-28T16:05:04,EdgeGAT_full_concat_tk_tk,EdgeGAT_full,,tk_tk,concat,first,US_to_China,0,,,,,,,"error: Found array with 0 sample(s) (shape=(0, 5)) while a minimum of 1 is required by MinMaxScaler."
+2026-07-28T16:05:04,EdgeGAT_full_concat_tk_tk,EdgeGAT_full,,tk_tk,concat,first,China_to_Taiwan,0,,,,,,,"error: Found array with 0 sample(s) (shape=(0, 5)) while a minimum of 1 is required by MinMaxScaler."
+2026-07-28T16:05:04,EdgeGAT_full_blend_tk_tk,EdgeGAT_full,,tk_tk,blend,first,US_to_China,0,,,,,,,"error: Found array with 0 sample(s) (shape=(0, 5)) while a minimum of 1 is required by MinMaxScaler."
+2026-07-28T16:05:04,EdgeGAT_full_blend_tk_tk,EdgeGAT_full,,tk_tk,blend,first,China_to_Taiwan,0,,,,,,,"error: Found array with 0 sample(s) (shape=(0, 5)) while a minimum of 1 is required by MinMaxScaler."
+2026-07-28T16:05:04,EdgeGAT_full_attention_tk_tk,EdgeGAT_full,,tk_tk,attention,first,US_to_China,0,,,,,,,"error: Found array with 0 sample(s) (shape=(0, 5)) while a minimum of 1 is required by MinMaxScaler."
+2026-07-28T16:05:04,EdgeGAT_full_attention_tk_tk,EdgeGAT_full,,tk_tk,attention,first,China_to_Taiwan,0,,,,,,,"error: Found array with 0 sample(s) (shape=(0, 5)) while a minimum of 1 is required by MinMaxScaler."
+2026-07-28T16:05:04,EdgeGAT_full_concat_ka_tk,EdgeGAT_full,,ka_tk,concat,first,US_to_China,0,,,,,,,"error: Found array with 0 sample(s) (shape=(0, 5)) while a minimum of 1 is required by MinMaxScaler."
+2026-07-28T16:05:04,EdgeGAT_full_concat_ka_tk,EdgeGAT_full,,ka_tk,concat,first,China_to_Taiwan,0,,,,,,,"error: Found array with 0 sample(s) (shape=(0, 5)) while a minimum of 1 is required by MinMaxScaler."
+2026-07-28T16:05:04,EdgeGAT_full_blend_ka_tk,EdgeGAT_full,,ka_tk,blend,first,US_to_China,0,,,,,,,"error: Found array with 0 sample(s) (shape=(0, 5)) while a minimum of 1 is required by MinMaxScaler."
+2026-07-28T16:05:04,EdgeGAT_full_blend_ka_tk,EdgeGAT_full,,ka_tk,blend,first,China_to_Taiwan,0,,,,,,,"error: Found array with 0 sample(s) (shape=(0, 5)) while a minimum of 1 is required by MinMaxScaler."
+2026-07-28T16:05:04,EdgeGAT_full_attention_ka_tk,EdgeGAT_full,,ka_tk,attention,first,US_to_China,0,,,,,,,"error: Found array with 0 sample(s) (shape=(0, 5)) while a minimum of 1 is required by MinMaxScaler."
+2026-07-28T16:05:04,EdgeGAT_full_attention_ka_tk,EdgeGAT_full,,ka_tk,attention,first,China_to_Taiwan,0,,,,,,,"error: Found array with 0 sample(s) (shape=(0, 5)) while a minimum of 1 is required by MinMaxScaler."
+2026-07-28T16:05:04,EdgeGAT_full_concat_tk_ka,EdgeGAT_full,,tk_ka,concat,first,US_to_China,0,,,,,,,"error: Found array with 0 sample(s) (shape=(0, 5)) while a minimum of 1 is required by MinMaxScaler."
+2026-07-28T16:05:04,EdgeGAT_full_concat_tk_ka,EdgeGAT_full,,tk_ka,concat,first,China_to_Taiwan,0,,,,,,,"error: Found array with 0 sample(s) (shape=(0, 5)) while a minimum of 1 is required by MinMaxScaler."
+2026-07-28T16:05:04,EdgeGAT_full_blend_tk_ka,EdgeGAT_full,,tk_ka,blend,first,US_to_China,0,,,,,,,"error: Found array with 0 sample(s) (shape=(0, 5)) while a minimum of 1 is required by MinMaxScaler."
+2026-07-28T16:05:04,EdgeGAT_full_blend_tk_ka,EdgeGAT_full,,tk_ka,blend,first,China_to_Taiwan,0,,,,,,,"error: Found array with 0 sample(s) (shape=(0, 5)) while a minimum of 1 is required by MinMaxScaler."
+2026-07-28T16:05:04,EdgeGAT_full_attention_tk_ka,EdgeGAT_full,,tk_ka,attention,first,US_to_China,0,,,,,,,"error: Found array with 0 sample(s) (shape=(0, 5)) while a minimum of 1 is required by MinMaxScaler."
+2026-07-28T16:05:04,EdgeGAT_full_attention_tk_ka,EdgeGAT_full,,tk_ka,attention,first,China_to_Taiwan,0,,,,,,,"error: Found array with 0 sample(s) (shape=(0, 5)) while a minimum of 1 is required by MinMaxScaler."
+2026-07-28T16:05:26,RF_first_none,RF,False,none,none,first,US_to_China,19,362026088.96,779152927.03,-0.2753,-10.8378,0.3086,198.14,
+2026-07-28T16:05:26,RF_first_none,RF,False,none,none,first,China_to_Taiwan,19,1210980320.72,2810728897.12,-0.2279,-6.2026,0.2361,194.7,
+2026-07-28T16:05:55,RF_first_keepall,RF,True,keepall,none,first,US_to_China,19,362022885.32,779152392.43,-0.2753,-10.7928,0.3174,198.07,
+2026-07-28T16:05:55,RF_first_keepall,RF,True,keepall,none,first,China_to_Taiwan,19,1210992258.22,2810727966.27,-0.2279,-6.076,0.3917,194.48,
+2026-07-28T16:06:20,RF_first_topk,RF,True,topk,none,first,US_to_China,19,362025049.83,779152427.24,-0.2753,-10.7943,0.3174,198.09,
+2026-07-28T16:06:20,RF_first_topk,RF,True,topk,none,first,China_to_Taiwan,19,1210993763.35,2810729318.44,-0.2279,-6.1047,0.3493,194.74,
+2026-07-28T16:10:50,GAT_first_none,GAT,False,none,concat,first,US_to_China,19,337479569.84,740276233.58,-0.1512,-0.0031,0.293,116.15,
+2026-07-28T16:10:50,GAT_first_none,GAT,False,none,concat,first,China_to_Taiwan,19,1205332590.39,2806867557.0,-0.2245,-0.682,-0.1509,158.98,
+2026-07-28T16:10:50,GAT_first_keepall_concat,GAT,True,keepall,concat,first,US_to_China,19,352118524.16,772539515.54,-0.2538,-0.6071,-0.4228,136.28,
+2026-07-28T16:10:50,GAT_first_keepall_concat,GAT,True,keepall,concat,first,China_to_Taiwan,19,1197444815.89,2799537323.9,-0.2181,-0.2112,-0.1509,145.19,
+2026-07-28T16:10:50,GAT_first_keepall_blend,GAT,True,keepall,blend,first,US_to_China,19,359366764.75,777930241.28,-0.2713,-2.5258,-0.4228,154.77,
+2026-07-28T16:10:50,GAT_first_keepall_blend,GAT,True,keepall,blend,first,China_to_Taiwan,19,1227767109.16,2690970450.3,-0.1255,-0.0538,0.3333,146.1,
+2026-07-28T16:10:50,GAT_first_keepall_attention,GAT,True,keepall,attention,first,US_to_China,19,332117306.37,739809224.0,-0.1498,0.1013,0.4228,114.48,
+2026-07-28T16:10:50,GAT_first_keepall_attention,GAT,True,keepall,attention,first,China_to_Taiwan,19,1205010263.0,2807137300.75,-0.2248,-0.7073,-0.3696,154.5,
+2026-07-28T16:10:51,GAT_first_topk_concat,GAT,True,topk,concat,first,US_to_China,19,355021712.89,774285088.47,-0.2594,-0.915,-0.393,146.26,
+2026-07-28T16:10:51,GAT_first_topk_concat,GAT,True,topk,concat,first,China_to_Taiwan,19,1200300314.84,2800551814.1,-0.219,-0.2762,-0.3333,151.58,
+2026-07-28T16:10:51,GAT_first_topk_blend,GAT,True,topk,blend,first,US_to_China,19,351732779.11,749818873.87,-0.1811,-0.2036,-0.4228,117.8,
+2026-07-28T16:10:51,GAT_first_topk_blend,GAT,True,topk,blend,first,China_to_Taiwan,19,1232880326.74,2725131503.19,-0.1542,-0.3729,-0.3333,119.35,
+2026-07-28T16:10:51,GAT_first_topk_attention,GAT,True,topk,attention,first,US_to_China,19,358644775.57,777493413.52,-0.2699,-2.1175,-0.4228,150.62,
+2026-07-28T16:10:51,GAT_first_topk_attention,GAT,True,topk,attention,first,China_to_Taiwan,19,1207112627.58,2808545540.47,-0.226,-1.0173,-0.3333,160.64,
+2026-07-28T16:10:51,EdgeGAT_full_concat_ka_ka,EdgeGAT_full,True,ka_ka,concat,first,US_to_China,19,346700345.74,763784790.75,-0.2255,-0.1944,-0.4228,128.0,
+2026-07-28T16:10:51,EdgeGAT_full_concat_ka_ka,EdgeGAT_full,True,ka_ka,concat,first,China_to_Taiwan,19,1248368964.32,2673412895.82,-0.1108,-0.2348,-0.1509,140.55,
+2026-07-28T16:10:51,EdgeGAT_full_blend_ka_ka,EdgeGAT_full,True,ka_ka,blend,first,US_to_China,19,361500794.87,778905183.71,-0.2745,-5.3686,0.0807,183.69,
+2026-07-28T16:10:51,EdgeGAT_full_blend_ka_ka,EdgeGAT_full,True,ka_ka,blend,first,China_to_Taiwan,19,1199733234.21,2799250921.4,-0.2179,-0.2529,-0.3333,149.97,
+2026-07-28T16:10:51,EdgeGAT_full_attention_ka_ka,EdgeGAT_full,True,ka_ka,attention,first,US_to_China,19,360867323.26,778788254.14,-0.2741,-4.4595,-0.4228,168.07,
+2026-07-28T16:10:51,EdgeGAT_full_attention_ka_ka,EdgeGAT_full,True,ka_ka,attention,first,China_to_Taiwan,19,1206895013.29,2808418121.79,-0.2259,-0.9793,-0.3333,160.12,
+2026-07-28T16:10:51,EdgeGAT_full_concat_tk_tk,EdgeGAT_full,True,tk_tk,concat,first,US_to_China,19,345501030.68,754641990.6,-0.1963,-0.1362,-0.0754,119.11,
+2026-07-28T16:10:51,EdgeGAT_full_concat_tk_tk,EdgeGAT_full,True,tk_tk,concat,first,China_to_Taiwan,19,1189578702.11,2757019392.36,-0.1814,-0.1014,-0.1509,127.75,
+2026-07-28T16:10:52,EdgeGAT_full_blend_tk_tk,EdgeGAT_full,True,tk_tk,blend,first,US_to_China,19,360582923.38,778664385.35,-0.2737,-3.941,-0.4228,163.5,
+2026-07-28T16:10:52,EdgeGAT_full_blend_tk_tk,EdgeGAT_full,True,tk_tk,blend,first,China_to_Taiwan,19,1181603662.53,2768674584.43,-0.1914,0.027,0.1509,130.76,
+2026-07-28T16:10:52,EdgeGAT_full_attention_tk_tk,EdgeGAT_full,True,tk_tk,attention,first,US_to_China,19,361010685.77,778731105.84,-0.2739,-4.2487,-0.4228,172.71,
+2026-07-28T16:10:52,EdgeGAT_full_attention_tk_tk,EdgeGAT_full,True,tk_tk,attention,first,China_to_Taiwan,19,1201229022.63,2803172320.48,-0.2213,-0.3483,-0.3333,152.38,
+2026-07-28T16:10:52,EdgeGAT_full_concat_ka_tk,EdgeGAT_full,True,ka_tk,concat,first,US_to_China,19,358937023.14,777957440.73,-0.2714,-2.6206,-0.4228,151.36,
+2026-07-28T16:10:52,EdgeGAT_full_concat_ka_tk,EdgeGAT_full,True,ka_tk,concat,first,China_to_Taiwan,19,1259442567.68,2663871389.51,-0.1029,-0.2749,-0.1509,140.5,
+2026-07-28T16:10:52,EdgeGAT_full_blend_ka_tk,EdgeGAT_full,True,ka_tk,blend,first,US_to_China,19,359849692.68,778296469.67,-0.2725,-3.0136,-0.4228,155.65,
+2026-07-28T16:10:52,EdgeGAT_full_blend_ka_tk,EdgeGAT_full,True,ka_tk,blend,first,China_to_Taiwan,19,1190831912.84,2789370308.23,-0.2093,-0.0833,-0.3333,135.36,
+2026-07-28T16:10:52,EdgeGAT_full_attention_ka_tk,EdgeGAT_full,True,ka_tk,attention,first,US_to_China,19,361068583.82,778722596.87,-0.2739,-4.285,-0.4228,174.68,
+2026-07-28T16:10:52,EdgeGAT_full_attention_ka_tk,EdgeGAT_full,True,ka_tk,attention,first,China_to_Taiwan,19,1193082966.84,2795862242.83,-0.2149,-0.1186,0.1509,138.28,
+2026-07-28T16:10:52,EdgeGAT_full_concat_tk_ka,EdgeGAT_full,True,tk_ka,concat,first,US_to_China,19,359007544.41,777402443.15,-0.2696,-2.8841,-0.0807,157.1,
+2026-07-28T16:10:52,EdgeGAT_full_concat_tk_ka,EdgeGAT_full,True,tk_ka,concat,first,China_to_Taiwan,19,1195540006.95,2774445411.96,-0.1964,-0.1816,-0.3333,127.2,
+2026-07-28T16:10:52,EdgeGAT_full_blend_tk_ka,EdgeGAT_full,True,tk_ka,blend,first,US_to_China,19,361556537.3,778990608.46,-0.2748,-5.8855,-0.4228,183.24,
+2026-07-28T16:10:52,EdgeGAT_full_blend_tk_ka,EdgeGAT_full,True,tk_ka,blend,first,China_to_Taiwan,19,1209213267.22,2809895178.74,-0.2272,-1.7287,-0.1509,165.55,
+2026-07-28T16:10:52,EdgeGAT_full_attention_tk_ka,EdgeGAT_full,True,tk_ka,attention,first,US_to_China,19,360165120.25,778388122.52,-0.2728,-3.2136,-0.4228,159.79,
+2026-07-28T16:10:53,EdgeGAT_full_attention_tk_ka,EdgeGAT_full,True,tk_ka,attention,first,China_to_Taiwan,19,1202941537.74,2805716081.49,-0.2235,-0.5427,0.414,148.63,
+2026-07-28T16:11:05,RF_first_none,RF,False,none,none,first,US_to_China,19,362026088.96,779152927.03,-0.2753,-10.8378,0.3086,198.14,
+2026-07-28T16:11:05,RF_first_none,RF,False,none,none,first,China_to_Taiwan,19,1210980320.72,2810728897.12,-0.2279,-6.2026,0.2361,194.7,
+2026-07-28T16:11:37,RF_first_keepall,RF,True,keepall,none,first,US_to_China,19,362022885.32,779152392.43,-0.2753,-10.7928,0.3174,198.07,
+2026-07-28T16:11:37,RF_first_keepall,RF,True,keepall,none,first,China_to_Taiwan,19,1210992258.22,2810727966.27,-0.2279,-6.076,0.3917,194.48,
+2026-07-28T16:12:00,RF_first_topk,RF,True,topk,none,first,US_to_China,19,362025049.83,779152427.24,-0.2753,-10.7943,0.3174,198.09,
+2026-07-28T16:12:00,RF_first_topk,RF,True,topk,none,first,China_to_Taiwan,19,1210993763.35,2810729318.44,-0.2279,-6.1047,0.3493,194.74,

@@ -1,0 +1,4 @@
+model_a,model_b,n_pairs,median_abs_log_err_a,median_abs_log_err_b,wilcoxon_stat,p_value
+EdgeGAT_full_attention_ka_ka_shrinkage,RF_gravity_baseline,1611,1.7188456652903383,0.9929557564870315,356888.0,3.0924738609150958e-55
+EdgeGAT_full_attention_ka_ka_shrinkage,GAT_first_none,1611,1.7188456652903383,1.6663958438885107,627774.5,0.2505292410376182
+EdgeGAT_full_attention_ka_ka_shrinkage,GAT_first_keepall_concat,1611,1.7188456652903383,1.664791748094549,609726.0,0.03438478285114583
